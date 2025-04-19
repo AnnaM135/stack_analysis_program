@@ -30,4 +30,9 @@ Hints:
 5. Print as many values as necessary to "see" the structure of the stack and tha values stored there.
 
 
+-32 <= i <= 32	64 բայթ տեղ ենք ստուգում stack-ում 
+char* current = ptr + i	Pointer arithmetic — շարժվում ենք հիշողության մեջ
+0xFF & *current	Տպում ենք միայն 1 բայթ արժեք (hex ձևաչափով)
+
+
 
